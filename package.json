@@ -1,0 +1,14 @@
+{
+  "name": "dvm",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "^1.0.8"
+  },
+  "scripts": {
+    "start": "bun --watch index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
